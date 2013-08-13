@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    edgecast_token (0.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (10.1.0)
+    rake-compiler (0.8.3)
+      rake
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  edgecast_token!
+  rake-compiler

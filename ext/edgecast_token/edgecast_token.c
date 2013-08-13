@@ -156,6 +156,6 @@ static VALUE encrypt(VALUE self, VALUE k, VALUE s)
 }
 
 void Init_edgecast_token(void) {
-  VALUE klass = rb_define_class("EdgeCastToken", rb_cObject);
+  VALUE klass = rb_define_class("EdgecastToken", rb_cObject);
   rb_define_singleton_method(klass, "generate", encrypt, 2);
 }

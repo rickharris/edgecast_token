@@ -10,4 +10,6 @@ Gem::Specification.new do |s|
   s.extensions = ['ext/edgecast_token/extconf.rb']
   s.homepage    =
     'http://rubygems.org/gems/edgecast_token'
+
+  s.add_development_dependency "rake-compiler"
 end
