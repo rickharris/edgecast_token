@@ -1,4 +1,15 @@
-#include <openssl/blowfish.h>
+/*********** -*- mode: c; c-file-style: "linux"; -*- **********
+ *
+ * Copyright (c) 2006-2010 EdgeCast Networks, Inc.
+ * All Rights Reserved
+ *
+ * $Id$
+ * $HeadURL$
+ *
+ * Modified by Rick Harris for edgecast_token.
+ *
+ ****************************************************************/
+#include <opessl/blowfish.h>
 #include <string.h>
 #include <ruby.h>
 
