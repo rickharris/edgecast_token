@@ -1,5 +1,5 @@
 require "edgecast_token/version"
-require "edgecast_token_extension"
+require "edgecast_token/edgecast_token"
 
 module EdgecastToken
   def self.generate(key, input)
