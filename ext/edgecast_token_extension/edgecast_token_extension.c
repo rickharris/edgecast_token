@@ -9,7 +9,7 @@
  * Modified by Rick Harris for edgecast_token.
  *
  ****************************************************************/
-#include <opessl/blowfish.h>
+#include <openssl/blowfish.h>
 #include <string.h>
 #include <ruby.h>
 
@@ -86,6 +86,6 @@ static VALUE encrypt(VALUE self, VALUE k, VALUE s)
 }
 
 void Init_edgecast_token_extension(void) {
-  VALUE klass = rb_define_class("EdgecastToken", rb_cObject);
+  VALUE klass = rb_define_module("EdgecastToken");
   rb_define_singleton_method(klass, "encrypt", encrypt, 2);
 }
