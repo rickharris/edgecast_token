@@ -1,3 +1,4 @@
 edgecast_token-0.0.0.gem
 tmp/*
 *.bundle
+*.so
