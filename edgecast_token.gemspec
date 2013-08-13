@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.description = "Generate EdgeCast tokens on the fly"
   s.authors     = ["Rick Harris"]
   s.email       = 'rick.c.harris@gmail.com'
-  s.files = Dir.glob('lib/**/*.rb') + Dir.glob('ext/**/*.{c,h,rb}')
-  s.extensions = ['ext/edgecast_token/extconf.rb']
+  s.files = Dir.glob('lib/**/*.rb') + Dir.glob('ext/**/*.{c,rb}')
+  s.extensions = ['ext/edgecast_token_extension/extconf.rb']
   s.homepage    =
     'http://rubygems.org/gems/edgecast_token'
 

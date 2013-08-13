@@ -7,7 +7,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     rake (10.1.0)
-    rake-compiler (0.8.3)
+    rake-compiler (0.9.1)
       rake
 
 PLATFORMS
