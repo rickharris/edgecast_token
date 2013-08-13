@@ -9,8 +9,16 @@ This library generates tokens to be used for EdgeCast's token auth feature.
 EdgecastToken.generate("my super secret key", "ec_expire=#{Time.now + 2.days}")
 ```
 
-### Installation via git (for now)
+### Installation
+
+In your Gemfile
 
 ```ruby
-gem 'edgecast_token', github: 'rickharris/edgecast_token'
+gem 'edgecast_token'
+```
+
+or on the command line
+
+```sh
+gem install edgecast_token
 ```
