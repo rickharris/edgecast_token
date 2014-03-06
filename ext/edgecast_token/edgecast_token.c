@@ -59,7 +59,7 @@ void cfb64_encrypt(const unsigned char* in, unsigned char* out, long length,
   *num=n;
 }
 
-static VALUE encrypt(VALUE self, VALUE k, VALUE s)
+static VALUE ec_encrypt(VALUE self, VALUE k, VALUE s)
 {
   char *key = StringValueCStr(k);
   char *string = StringValueCStr(s);
@@ -87,5 +87,5 @@ static VALUE encrypt(VALUE self, VALUE k, VALUE s)
 
 void Init_edgecast_token(void) {
   VALUE klass = rb_define_module("EdgecastToken");
-  rb_define_singleton_method(klass, "encrypt", encrypt, 2);
+  rb_define_singleton_method(klass, "encrypt", ec_encrypt, 2);
 }
